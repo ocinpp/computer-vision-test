@@ -1,3 +1,5 @@
+AZURE_API_ENDPOINT = "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Categories&details=Landmarks&language=en" 
+
 def azure_vision_test(api_key, image_url):
     """ Azure Vision test function
     
